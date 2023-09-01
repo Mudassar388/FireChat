@@ -139,6 +139,9 @@
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fab-HH-zFQ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" name="primaryColor"/>
@@ -153,7 +156,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h5A-8G-7AZ">
-                                <rect key="frame" x="86" y="764" width="221" height="34"/>
+                                <rect key="frame" x="84.666666666666686" y="762" width="224" height="36"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -174,6 +177,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="signUpTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZRd-HH-huB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -225,7 +231,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nWL-5r-ZJ8">
-                                <rect key="frame" x="49" y="170.33333333333334" width="295" height="511.33333333333326"/>
+                                <rect key="frame" x="49" y="191.66666666666666" width="295" height="468.66666666666674"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fireLogo_1" translatesAutoresizingMaskIntoConstraints="NO" id="ksg-rz-eNi">
                                         <rect key="frame" x="97.666666666666657" y="30" width="100" height="100"/>
@@ -241,7 +247,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zpG-oF-ocx">
-                                        <rect key="frame" x="20" y="144.99999999999997" width="255" height="170.00000000000003"/>
+                                        <rect key="frame" x="20" y="145.00000000000003" width="255" height="169.99999999999997"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O3e-4u-lPG">
                                                 <rect key="frame" x="0.0" y="0.0" width="255" height="50"/>
@@ -377,16 +383,19 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3q-CC-SJO">
-                                        <rect key="frame" x="110.66666666666666" y="335" width="73.666666666666657" height="38"/>
+                                        <rect key="frame" x="102.66666666666666" y="335" width="90" height="38"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Login">
                                             <color key="titleColor" name="secondaryColor"/>
                                         </state>
-                                        <buttonConfiguration key="configuration" style="plain" title="Login">
+                                        <buttonConfiguration key="configuration" style="plain" title="SignUp">
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="signUpTapped:" destination="dtK-xW-N5M" eventType="touchUpInside" id="RDo-BR-OYL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" name="primaryColor"/>
@@ -406,20 +415,53 @@
                         <constraints>
                             <constraint firstItem="nWL-5r-ZJ8" firstAttribute="width" secondItem="aM7-eO-nfR" secondAttribute="width" multiplier="0.75" id="5MU-kG-mDW"/>
                             <constraint firstItem="nWL-5r-ZJ8" firstAttribute="centerX" secondItem="Kyl-B3-MQN" secondAttribute="centerX" id="CYW-JA-qYB"/>
-                            <constraint firstItem="nWL-5r-ZJ8" firstAttribute="height" secondItem="aM7-eO-nfR" secondAttribute="height" multiplier="0.6" id="eXR-4S-e6P"/>
+                            <constraint firstItem="nWL-5r-ZJ8" firstAttribute="height" secondItem="aM7-eO-nfR" secondAttribute="height" multiplier="0.55" id="eXR-4S-e6P"/>
                             <constraint firstItem="nWL-5r-ZJ8" firstAttribute="centerY" secondItem="aM7-eO-nfR" secondAttribute="centerY" id="qxB-22-cFo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="SignUp" id="4MV-Fq-b4F"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="subView" destination="nWL-5r-ZJ8" id="l1l-GZ-1GQ"/>
-                        <outlet property="tfName" destination="0Nc-O6-Lfn" id="BEC-IS-L7Z"/>
-                        <outlet property="tfPassword" destination="qv6-xB-55y" id="8lM-cP-7ow"/>
+                        <outlet property="subView" destination="nWL-5r-ZJ8" id="azi-dS-CXt"/>
+                        <outlet property="tfConfirmPass" destination="qv6-xB-55y" id="RTt-e3-ui9"/>
+                        <outlet property="tfPassword" destination="hxg-AP-bP7" id="y1T-4X-mCS"/>
+                        <outlet property="tfUser" destination="0Nc-O6-Lfn" id="kJE-5y-p5v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r3V-fC-YST" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1662" y="-2"/>
+        </scene>
+        <!--Users-->
+        <scene sceneID="iIH-lE-jvA">
+            <objects>
+                <viewController storyboardIdentifier="UserViewController" title="Users" id="yL4-YB-78d" customClass="UserViewController" customModule="FireChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7WQ-bz-xTP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" estimatedRowHeight="100" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ico-eb-7ny">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oem-nY-Den"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oem-nY-Den" firstAttribute="bottom" secondItem="ico-eb-7ny" secondAttribute="bottom" id="BzP-yC-fvL"/>
+                            <constraint firstItem="ico-eb-7ny" firstAttribute="leading" secondItem="oem-nY-Den" secondAttribute="leading" id="CaY-sB-M1Y"/>
+                            <constraint firstItem="oem-nY-Den" firstAttribute="trailing" secondItem="ico-eb-7ny" secondAttribute="trailing" id="JM5-rx-Ieq"/>
+                            <constraint firstItem="ico-eb-7ny" firstAttribute="top" secondItem="oem-nY-Den" secondAttribute="top" id="uhG-KT-DtM"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tblView" destination="ico-eb-7ny" id="7NI-9q-bTT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S39-Tb-T8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2392" y="-2"/>
         </scene>
     </scenes>
     <resources>
@@ -427,7 +469,7 @@
         <image name="lock.fill" catalog="system" width="125" height="128"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <namedColor name="primaryColor">
-            <color red="0.32941176470588235" green="0.72549019607843135" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.32899999618530273" green="0.72500002384185791" blue="0.81999999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondaryColor">
             <color red="0.94900000095367432" green="0.64300000667572021" blue="0.22699999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

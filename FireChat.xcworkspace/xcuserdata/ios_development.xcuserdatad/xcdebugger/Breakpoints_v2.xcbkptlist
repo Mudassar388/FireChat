@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "53775A3D-FACF-4367-A854-CD27901AB4F4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F57E522-A828-499D-B224-71B1461BAE53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChat/ViewController/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DD31928-A869-415B-B270-EC1E7CD277A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChat/ViewController/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7DD31928-A869-415B-B270-EC1E7CD277A7 - cdb0d9b8a681b564"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChat.UserViewController.fetchUsers() -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "7DD31928-A869-415B-B270-EC1E7CD277A7 - 3e3c986d7054c98a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireChat.UserViewController.fetchUsers() -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "7DD31928-A869-415B-B270-EC1E7CD277A7 - 3e3c986d7054c98a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireChat.UserViewController.fetchUsers() -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCAD27FD-E12C-4B8C-947D-686577A69157"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChat/ViewController/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DCAD27FD-E12C-4B8C-947D-686577A69157 - 28dd6d971b07d3c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChat.UserViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "DCAD27FD-E12C-4B8C-947D-686577A69157 - 23b622c746a9d1de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChat.UserViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "388A3FEC-E646-451D-A94D-1797CFAC0530"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChat/ViewController/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F0012C7-EF88-4D07-874B-ECD4BB618FF6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChat/ViewController/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F0012C7-EF88-4D07-874B-ECD4BB618FF6 - 3e3c986d7054cbf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireChat.UserViewController.fetchUsers() -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2376">
+               </Location>
+               <Location
+                  uuid = "8F0012C7-EF88-4D07-874B-ECD4BB618FF6 - 3e3c986d7054cbf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireChat.UserViewController.fetchUsers() -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2496">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFF6F740-560B-4BBE-A0AF-2062CD6021F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChat/ViewController/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "loginTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EFF6F740-560B-4BBE-A0AF-2062CD6021F4 - d9feaa1097e52899"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChat.LoginViewController.loginTapped(Any) -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "EFF6F740-560B-4BBE-A0AF-2062CD6021F4 - 7cab57ec9c86ec07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireChat.LoginViewController.loginTapped(Any) -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "EFF6F740-560B-4BBE-A0AF-2062CD6021F4 - 7cab57ec9c86ec07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireChat.LoginViewController.loginTapped(Any) -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "EFF6F740-560B-4BBE-A0AF-2062CD6021F4 - d9feaa1097e52899"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChat.LoginViewController.loginTapped(Any) -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "EFF6F740-560B-4BBE-A0AF-2062CD6021F4 - 7cab57ec9c86ec07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireChat.LoginViewController.loginTapped(Any) -&gt; ()"
+                  moduleName = "FireChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ios_development/Documents/FireChat/FireChat/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
